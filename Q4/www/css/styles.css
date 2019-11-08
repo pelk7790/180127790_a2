@@ -166,3 +166,23 @@ footer {
   display: table;
   clear: both;
 }
+@media screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .flex-container {
+    display: inline;
+  }
+
+  .left{
+    width: 100%;
+  }
+  .rigth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+  }
+  p{
+    display: none;
+  }
+}
